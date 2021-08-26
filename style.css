@@ -7,10 +7,15 @@ body {
   color: rgb(148,148,148);
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: 'Quando', serif;
   font-size: 20px;
   color: #4B6587;
+}
+
+h3 {
+  color: #125D98;
+  font-size: 14px;
 }
 
 .container {
@@ -40,6 +45,14 @@ h1, h2 {
   .container {
     width: 300px;
   }
+}
+
+a.referral {
+  color: #4B6587;
+}
+
+a.referral:hover {
+  color: #C8C6C6;
 }
 
 a.btn-grey {
